@@ -1,0 +1,9 @@
+INSERT INTO `t_sys_user_dep_r` VALUES ('1', '8ae4b2cd6af8d5eb016b257bf1970136', '1');
+INSERT INTO `t_sys_user_dep_r` VALUES ('1cdacd16f59a44b183f60c1bfde0265c', '95ea568ba9784097971f8efbbc7eb703', '1');
+INSERT INTO `t_sys_user_dep_r` VALUES ('2', '5eb2d2185e9e4483bdc2d33306a77f96', '1');
+INSERT INTO `t_sys_user_dep_r` VALUES ('203137712f6e4c05bc0eceaf13b9b6f3', '95ea568ba9784097971f8efbbc7eb703', '1');
+INSERT INTO `t_sys_user_dep_r` VALUES ('2c9d26c6644045a301644f57774e015f', 'aac2907dd79b4cc094d314022b25d2c7', '1');
+INSERT INTO `t_sys_user_dep_r` VALUES ('35a1fc965afc45e78b8b1a097dc78ceb', '42910949ec7946e7be4bb410add0def2', '1');
+INSERT INTO `t_sys_user_dep_r` VALUES ('8ae4b2cd6bf9f815016c18ffe64f00d1', '8ae4b2cd6af8d5eb016b257bf1970136', '1');
+INSERT INTO `t_sys_user_dep_r` VALUES ('8ae4b2d167c4707901681b9a9f1d0751', 'aac2907dd79b4cc094d314022b25d2c7', '1');
+INSERT INTO `t_sys_user_dep_r` VALUES ('b3ea59c53bce4da6999ec5c7d04151e4', '286d406f44584bdabf9b58aa4190bf8f', '1');
