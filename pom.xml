@@ -6,6 +6,7 @@
     <modules>
         <module>huotn_main</module>
         <module>huotn_mini_app</module>
+        <module>huotn_mp</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -92,6 +93,35 @@
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
         </dependency>
+
+
+        <!--        公众号sdk-->
+        <!--        <dependency>-->
+        <!--            <groupId>com.github.binarywang</groupId>-->
+        <!--            <artifactId>weixin-java-mp</artifactId>-->
+        <!--            <version>3.7.0</version>-->
+        <!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>com.jfinal</groupId>-->
+<!--            <artifactId>jfinal-weixin</artifactId>-->
+<!--            <version>2.5</version>-->
+<!--        </dependency>-->
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.68</version>
+        </dependency>
+
+        <!--针对org.apache.commons.codec.binary.Base64，
+        * 需要导入架包commons-codec-1.9（或commons-codec-1.8等其他版本）-->
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.10</version>
+        </dependency>
+
 
     </dependencies>
 
