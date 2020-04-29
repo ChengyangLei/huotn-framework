@@ -1,7 +1,17 @@
-server:
-  port: 8091
-  servlet:
-    context-path: huotn
 spring:
-  profiles:
-    include: jdbc
+  security:
+    basic:
+      enabled: false
+  datasource:
+    url: jdbc:mysql://10.100.50.93:3306/ncysgc?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis-plus:
+  # 如果是放在src/main/java目录下 classpath:/com/yourpackage/*/mapper/*Mapper.xml
+  # 如果是放在resource目录 classpath:/mapper/*Mapper.xml
+  mapper-locations: classpath*:com/huotn/**/**.xml,classpath*:mapping/**/**.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.huotn.**.entity,com.huotn.**.dto
+server:
+  port: 8095

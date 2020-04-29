@@ -26,6 +26,12 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.huotn</groupId>
+            <artifactId>huotn_common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>

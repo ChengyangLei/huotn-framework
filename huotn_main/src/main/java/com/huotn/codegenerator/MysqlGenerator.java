@@ -23,7 +23,8 @@ public class MysqlGenerator {
 
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        String projectPath = System.getProperty("user.dir");
+//        String projectPath = System.getProperty("user.dir");
+        String projectPath="E:\\workspace\\huosecritytoken";
         gc.setOutputDir(projectPath + "/src/main/java");
         // TODO 设置用户名
         gc.setAuthor("leichengyang");
@@ -47,16 +48,16 @@ public class MysqlGenerator {
 
         // TODO 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://10.100.50.93:3306/ncysgc?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC");
+        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/huont?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC");
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("123456");
+        dsc.setPassword("root");
         mpg.setDataSource(dsc);
 
         // TODO 包配置
         PackageConfig pc = new PackageConfig();
         //pc.setModuleName(scanner("模块名"));
-        pc.setParent("com.huotn.demodruid");
+        pc.setParent("com.huotn.huosecritytoken");
         pc.setEntity("entity");
         pc.setService("service");
         pc.setServiceImpl("service.impl");
@@ -103,7 +104,7 @@ public class MysqlGenerator {
         // 设置逻辑删除键
         strategy.setLogicDeleteFieldName("deleted");
         // TODO 指定生成的bean的数据库表名
-        strategy.setInclude("dse_yhd_r");
+        strategy.setInclude("t_sys_user");
         //strategy.setSuperEntityColumns("id");
         // 驼峰转连字符
         strategy.setControllerMappingHyphenStyle(true);

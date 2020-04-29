@@ -9,15 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>huotn_mini_app</artifactId>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.huotn</groupId>
-            <artifactId>huotn_common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+    <artifactId>huotn_common</artifactId>
 
 
 </project>
